@@ -1,3 +1,8 @@
+Developed by: Jayani N
+
+RegisterNumber: 212224100025
+
+
 # FULL_ADDER_SUBTRACTOR
 
 Implementation-of-Full-Adder-and-Full-subtractor-circuit
@@ -38,6 +43,16 @@ Borrow out = A'Bin + A'B + BBin
 
 **Truthtable**
 
+## Full adder:
+
+![Screenshot 2025-04-16 091920](https://github.com/user-attachments/assets/1e867765-bfcc-4abc-a896-1675e688b63e)
+
+## Full subtractor:
+
+![Screenshot 2025-04-16 092000](https://github.com/user-attachments/assets/d0ca0181-4c99-4fd5-9073-ca112a233ffe)
+
+
+
 **Procedure**
 
 1.	Type the program in Quartus software.
@@ -52,10 +67,6 @@ Borrow out = A'Bin + A'B + BBin
 
 **Program:**
 
-            /* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming. 
-            Developed by: Jayani N
-            RegisterNumber: 212224100025
-            */
             module sample(a,b,cin,bin,sum_a,cout,diff_s,borr_s);
             input a,b,cin,bin;
             output sum_a,cout,diff_s,borr_s;
